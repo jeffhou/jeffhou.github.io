@@ -202,12 +202,16 @@ a.project-link {
 .subsection-content {
 	display: inline-block;
 	text-align: left;
-	width: 590px;
+	width: 570px;
 	padding-left: 20px;
 }
 ul.lean {
 	margin: 2px;
 	padding-left: 0px;
+}
+li {
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 .lean {
 	margin: 0px;
