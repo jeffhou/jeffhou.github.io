@@ -1,0 +1,40 @@
+<link rel=stylesheet type=text/css href="style.css" />
+<body>
+    <div class="project-title">
+        Tractor
+    </div>
+    <div class="project-subtitle">
+        Complex Multiplayer Card Game
+    </div>
+    <div class="project-logo-section">
+        <div class="project-separator"></div>
+        <div class="project-logo">
+            <img src="tractor.png" />
+        </div>
+        <div class="project-separator"></div>
+    </div>
+    <div class="project-description">
+        <p>
+            Code can be found on Github: <a href="https://github.com/jeffhou/Tractor" class="project-link">Repository</a>
+        </p>
+        <hr />
+        <p>
+            <a href="http://www.pagat.com/kt5/tractor.html" class="project-link">Tractor</a> is a complex trick-based multiplayer game similar to Hearts or Euchre. Its numerous variations give each group of friends the right set of levers to customize the game to their liking while its complexity in game logic makes programming the game a fun exercise.
+        </p>
+        <p>
+            For this project, I used Java and then Python to implement a console-based card game that is playable for multiple players sitting at the same computer. The main challenges in this project was how to algorithmically determine necessary plays based on the combinations required in a specific trick. For instance, 2 Aces and 2 Kings make a "tractor", or consecutive pair. If that tractor is the first combo played in the trick (round), the other players must play consecutive pairs if they have them, or if they don't, at least that many pairs if they exist, and then finally single cards to make up the numbers... Here's part of the crucial code for the logic described:
+        </p>
+        <p>
+            <img src="tractor_consecutivepairs.png" width=690px/>
+        </p>
+        <p>
+          <strong>Possible Extensions: </strong> Enable Networking to Play on LAN, Build Desktop App for game.
+        </p>
+    </div>
+
+    <div class="project-subtitle">
+      <div class="project-separator-short"></div>
+      <a href="index.html" class="back-link">BACK</a>
+      <div class="project-separator-short"></div>
+    </div>
+</body>
